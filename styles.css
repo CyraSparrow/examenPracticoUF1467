@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif; /* faltaba el guión en font-family */
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  } /* He cerrado la llave*/
+
+  button { 
+    background-color: blue; 
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  } /* faltaba cerrar la llave, cambiar azul por blue, borrar la s de transitions y cambiar la m por n en buttom*/
+
+  button:Onhover { 
+    background-color: #2980b9;
+  }
+
+  button:active {
+    transform: scale(0.98);
+  }
